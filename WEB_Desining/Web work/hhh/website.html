@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>FIRST FASHION</title>
+   <link href="099.png" rel="icon">
+<link href="header.css" rel="stylesheet" rev="stylesheet" />
+<link href="footer.css" rel="stylesheet" rev="stylesheet" />
+<link href="sectioncss.css" rel="stylesheet" rev="stylesheet" />
+<script src="jquery-2.2.2.js" type="text/javascript"></script>
+<!--<script src="http://malsup.github.io/min/jquery.cycle2.min.js" type="text/javascript"></script>
+-->
+<style>
+*{
+	margin:0px auto;
+	padding:0px;
+	}
+#container{
+	width:800px;
+	height:500px;
+	border:solid;
+	overflow:hidden;
+	margin-top:50px;
+	border-radius:100px;}
+#slideshow{
+	width:100%;
+	height:500px;
+	position:relative;		
+	text-align:center;
+}
+#slideshow img{
+	text-align:center;
+	height:500px;
+	position:relative;
+	text-align:center;
+	}
+#pager{
+	text-align:center;
+	height:150px;
+	width:800px;
+	position:relative;
+	bottom:210px;
+	background:rgba(0,0,0,.5);
+	z-index:1000;
+	opacity:0.1;
+	transition:all 0.3s ease-in-out 0s;
+	}
+#pager:hover{
+	opacity:1;}	
+#pager img{
+	width:80px;
+	position:relative;
+	top:10px;
+	height:120px;
+	border:solid black;
+	
+	}
+#next{
+	height:100px;
+	width:100px;
+	position:relative;
+	left:460px;
+	bottom:300px;
+
+	
+	
+	}
+#prev{
+	
+	height:100px;
+	width:100px;
+	position:relative;
+	right:460px;
+	bottom:410px;
+	}
+.h1{
+	font-family:'Times New Roman', Times, serif;
+	font-size:36px;
+	font-weight:600;
+	position:relative;
+	right:950px;
+	
+	}
+.row{
+	height:220px;
+	width:200px;
+	float:left;
+	margin-left:40px;
+	top:30px;
+	left:40px;
+	}
+.row1{
+	height:220px;
+	width:200px;
+	float:left;
+	margin-left:40px;
+	left:60px;
+	top:80px;
+	}
+a .row1 {
+	text-decoration:none;
+	color:black;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	text-align:center;
+	font-weight:600;
+	}
+a .row {
+	text-decoration:none;
+	color:black;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:22px;
+	font-weight:600;
+	text-align:center;
+	}
+#s{
+	text-decoration:none;
+	font-size:20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:white;
+	font-weight:bolder;
+	transition:color 275ms,border-color white;
+	
+	}	
+#s:hover{
+	background:white;
+	color:black;
+	transition:800ms;
+	}
+.img{
+	width:200px;
+	height:200px;
+	}
+.img:hover{
+	opacity:0.6;
+	transition:800ms;
+	}
+	
+	}						
+img.round{
+   	border-radius: 70%;
+	height: 50px;
+   	width:  50px;
+}
+	</style> 
+    
+    </head>
+    <body> 
+<header style="background: url(images/DAVID%20BECKHAM.jpg) no-repeat;background-size:1260px 600px;">
+<a href="website.html"><div id="heading1"><img src="images/LOGOkk.png" style="width:280px;height:150px;" /></div></a>
+<hr  style="width:1250px;;position:relative;top:20px;color:aliceblue"/>
+<nav>
+	<ul>
+    	<li class="B"><a class="A" href="website.html">HOME</a></li>
+       
+        <li class="B"><a class="A" href="SELECT YOUR BRAND.html">BRANDS</a></li>
+        <li class="B"><a class="A" href="select your catagory.html">CATAGORIES</a></li>
+        <li class="B"><a class="A" href="contact.html">CONTACT</a></li>
+         <li class="B"><a class="A" href="about.html">ABOUT</a></li>
+	</ul>
+	</nav>
+<p id="para1">...WE OFFERS A LATEST BRANDS OF FASHION PRODUCTS IN GOOD COST AND WITH A BEST QUALITY OF MAN LIKESHIRTS,SHOES,PANTS,WANTCHES,
+GLASSES AND ETC WITH GUARANTEE...</p>
+<h1 id="B">WELCOME TO <br /> FIRST FASHION...</h1>
+
+<p  style="width:180px;height:40px;border:medium;border: 4px solid white;line-height:42px;text-align:center;
+letter-spacing:3px;position:relative;top:170px;left:350px;"><a href="SELECT YOUR BRAND.html" id="s" style="
+display:block;">
+SHOP NOW</a></p>
+</header>
+<section  style="height:3100px;position:relative;width:1260px;">
+<div style="width:1000px;height:3100px;">
+<h1 class="h1" style="position:relative;top:30px;left:55px;">MOST POPULAR PRODUCTS...</h1>
+<div id="container">
+<div id="slideshow"  class="cycle-slideshow"
+data-cycle-speed="600"
+data-cycle-timeout="3000"
+data-cycle-pager="#pager"
+data-cycle-pager-template="<a href='#'><img src='{{src}}' height=100 width=150 />"
+data-cycle-next="#next"
+data-cycle-prev="#prev"
+data-cycle-manual-fx="scrollHorz"
+data-cycle-manual-speed="400">
+
+<img src="images/lakme3.jpg"  alt="" />
+<img src="images/leshirt2.jpg"  alt="" />
+<img src="images/lepant1-tn.jpg" alt="" /> 
+<img src="images/polo2.jpg"  alt="" />
+<img src="images/leshoes3.jpg"  alt="" />
+<img src="images/rayban6.jpg"  alt="" />
+<img src="images/rayban3.jpg"  alt="" />
+<img src="images/levisw2.jpg"  alt="" />
+<img src="images/polos1.jpg"  alt="" />
+</div>
+<div id="pager"></div></div>
+
+<div id="next"><img src="images/next.png" style="width:100px;height:100px"  /></div>
+<div id="prev"><img src="images/pre.png" style="width:100px;height:100px" /></div>
+
+
+<h1 class="h1" style="left:0px;bottom:150px;width:900px;">OUR BEST PRODUCTS...</h1>
+
+<div style="width:1100px;height:250px;position:relative;bottom:100px;right:50px;">
+
+
+<a href="leshirtinfo2.html"><div class="row"><img src="images/leshirt2.jpg" class="img" />LEVIS 514</div></a>
+<a href="lakmeinfo6.html">><div class="row"><img src="images/lakme6.jpg" class="img" />LAKME 226</div></a>
+<a href="raybanglassesinfo10.html"><div class="row"><img src="images/rayban10.jpg" class="img" />RAY.BAN 121</div></a>
+<a href="poloshirtsinfo3.html"><div class="row"><img src="images/polo3.jpg" class="img" />POLO 229</div></div></a>
+<a href="leviscatagories.html"><h1 class="h1" style="position:relative;left:0px;width:1000px;bottom:50px;">LEVIS...</h1></a>
+<div style="width:1100px;height:250px;position:relative;TOP:0px;right:50px;">
+<a href="product page1.html"><div class="row1"><img src="images/leshirt4.jpg" class="img" />LEVIS 505</div></a>
+<a href="leshirtinfo4.html"><div class="row1"><img src="images/leshirt3.jpg" class="img" />LEVIS 555</div></a>
+<a href="lepentinfo1.html"><div class="row1"><img src="images/lepant1.jpg" class="img" />LEVIS 607</div></a>
+<a href="levisshoesinfo1.html"><div class="row1"><img src="images/leshoes1.jpg" class="img" />LEVIS 909</div></a></div>
+<h1 class="h1" style="position:relative;left:0px;width:1000px;top:50px;">LAKME...</h1>
+<div style="width:1100px;height:250px;position:relative;TOP:100px;right:50px;">
+<a href="lakmeinfo1.html"><div class="row1"><img src="images/lakme1.jpg" class="img" />LAKME 222</div></a>
+<a href="lakmeinfo3.html"><div class="row1"><img src="images/lakme3.jpg" class="img" />LAKME 223</div></a>
+<a href="lakmeinfo5.html.html"><div class="row1"><img src="images/lakme5.jpg" class="img" />LAKME 225</div></a>
+<a href="lakmeinfo8.html"><div class="row1"><img src="images/lakme8.jpg" class="img" />LAKME 228</div></a></div>
+<h1 class="h1" style="position:relative;left:0px;width:1000px;top:150px;">POLO...</h1>
+<div style="width:1100px;height:250px;position:relative;TOP:200px;right:50px;">
+<a href="poloshirtsinfo2.html"><div class="row1"><img src="images/polo2.jpg" class="img" />POLO 209</div></a>
+<a href="polopantsinfo1.html"><div class="row1"><img src="images/polopant1.jpg" class="img" />POLO 002</div></a>
+<a href="poloshoesinfo1.html"><div class="row1"><img src="images/polos1.jpg" class="img" />POLO 403</div></a>
+<a href="polo watches1.html"><div class="row1"><img src="images/polow1.jpg" class="img" />POLO 333</div></a></div>
+<h1 class="h1" style="position:relative;left:0px;width:1000px;top:250px;">RAY.BAN...</h1>
+<div style="width:1100px;height:250px;position:relative;TOP:300px;right:50px;">
+<a href="raybanglassesinfo1.html"><div class="row1"><img src="images/rayban1.jpg" class="img" />RAY.BAN 389</div></a>
+<a href="raybanglassesinfo5.html"><div class="row1"><img src="images/rayban5.jpg" class="img" />RAY.BAN 456</div></a>
+<a href="raybanglassesinfo6.html"><div class="row1"><img src="images/rayban6.jpg" class="img" />RAY.BAN 236</div></a>
+<a href="raybanglassesinfo8.html"><div class="row1"><img src="images/rayban8.jpg" class="img" />RAY.BAN 111</div></a></div>
+<h1 class="h1" style="position:relative;left:0px;;width:1000px;top:350px;">LATEST PRODUCTS...</h1>
+<div style="width:1100px;height:250px;position:relative;TOP:400px;right:50px;">
+<a href="leshirtinfo3.html"><div class="row1"><img src="images/leshirt5.jpg" class="img" />LEVIS 506</div></a>
+<a href="lakmeinfo2.html"><div class="row1"><img src="images/lakme2.jpg" class="img" />LAKME 256</div></a>
+<a href="poloshoesinfo2.html"><div class="row1"><img src="images/polos2.jpg" class="img" />POLO 333</div></a>
+<a href="raybanglassesinfo4.html"><div class="row1"><img src="images/rayban4.jpg" class="img" />RAY.BAN923</div></a></div>
+<div style="width:100px;height:3300px;;;background:black;position:relative;right:580px;bottom:2600px;z-index:10;"></div>
+<div style="width:100px;height:3300px;background:black;position:relative;left:580px;bottom:6000px;z-index:10"></div>
+</div>
+</section>
+
+<footer>
+<a href="http://www.fb.com"><div id="link1"></div></a>
+<a href="http://www.twitter.com"><div id="link2"></div></a>
+<a href="https://www.pinterest.com"><div id="link3"></div></a>
+<a href="http://www.instagram.com"><div id="link4"></div></a>
+<div id="footernav">
+<ul>
+    	<li class="C"><a class="D" href="website.html">HOME</a></li>    
+       <li class="C"><a class="D" href="SELECT YOUR BRAND.html">BRANDS</a></li>
+ <li class="C"><a class="D" href="about.html">ABOUT</a></li>    
+   <li class="C"><a class="D" href="contact.html">CONTACT</a></li>
+</ul>
+
+
+</div>
+
+
+<a href="#"><p id="compare">WOULD YOU LIKE TO COMPARE THE PRODUCTS?</p></a>
+
+<font size="3" color="white">
+<br><br><div id="last"><p id="lastpara">This website and its content is copyright of MUHAMMAD_MOIZ<br /> © MM_PRODUCTS 2017. All rights reserved.<br />CREATED BY... MUHAMMAD MOIZ SIDDIQUE...</p>
+<center>
+<a href="https://www.facebook.com/profile.php?id=100005211407247"><img src="48.jpg" class="round">
+</font>     
+</center>
+</center>
+</font>
+
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>

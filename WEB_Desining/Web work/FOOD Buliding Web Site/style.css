@@ -1,0 +1,608 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.row
+{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+
+body
+{
+    font-family: tahoma;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-55%, -55%);
+       
+}
+
+/*-----------HEADER----------*/
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/Backgrounds/background1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+h1
+{
+    color: white;
+    
+}
+
+.nav-main
+{
+    
+    list-style: none;
+    float: right;
+    margin-top: 60px;
+}
+
+
+.nav-main li
+{
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+
+.nav-main li a
+{
+    text-decoration: none;
+    font-size: 140%;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+.nav-main li a:hover
+{
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    transition: all 0.5s ease-in;
+    padding: 15px 0;
+}   
+
+
+
+.logo img
+{
+    height: 100px;
+    float: left;
+    margin-top: 30px;
+}
+
+
+.bt 
+{
+    border: 1px solid #e67e22;
+    padding: 10px 30px;
+    color: #e67e22;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 20px;
+    
+}
+
+
+.button-aws
+{
+    margin-top: 40px;
+}
+
+
+.bt_half
+{
+    transition: all 0.5;
+
+}
+
+
+.bt_half:hover 
+{
+    background-color: #e67e22;
+    color: white;
+}
+
+
+.bt_full
+{
+    background-color:    #e67e22;
+    color: white;
+    
+}
+
+.seacrh
+{
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #34495e;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(img/Icons/magnifier-tool.png);
+    background-position:  20px 15px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    
+}
+
+.seacrh:hover
+{
+    opacity: 1;
+    width: 400px;
+    border: 2px solid aquamarine;        
+    
+}
+
+.grooming:hover
+{
+    opacity: 1;
+    transform: rotate(70deg);
+}
+
+
+/*------------Scroller-------------*/
+
+
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(23, 155, 215);
+    border-radius: 6px;
+    height: 150px;
+}
+
+
+
+/*-----------Intro Design----------*/
+
+.copy
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+h3:after
+{
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+
+.features h3
+{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+
+.arranging
+{
+    text-align: justify;
+}
+
+.features i
+{
+    font-size: 40px;
+    color: #e67e22;
+    margin-left: 35%;
+}
+
+.features h4
+{
+    margin-left: 30%;
+}
+
+
+.meal
+{
+    margin-top: 60px;   
+    
+}
+
+
+.meal-showcase
+{
+    list-style: none;
+    width: 100%;
+    
+}
+
+
+.meal-showcase li
+{
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+
+.meal-photo
+{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.meal-photo img
+{
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}   
+
+
+.meal-photo img:hover
+{   
+        transform: scale(1.05);   
+        
+}
+
+
+/*-----------MOBILE SECTION----------*/
+
+.pic img
+{
+    width: 40%;
+    height: 410px;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+
+.work-step
+{
+    margin-top: 50px;
+    
+}
+
+.work-step div
+{
+    border: 1px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.work-step img
+{
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 20px
+}
+
+.clearfix
+{
+    zoom: 1;
+}
+
+.clearfix:after
+{
+    visibility: hidden;
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+
+.mobile
+{
+    margin-top: 60px;
+    
+}
+
+
+/*-----------COMPARISON SECTION----------*/
+
+.compare
+{
+    
+    margin-top: 70px;
+    
+}
+.compare h3
+{
+ padding-bottom: 60px; 
+    
+}
+
+
+
+/*-----------CITIES SECTION----------*/
+
+.cities
+{
+    
+    margin-top: 100px;
+}
+
+
+.cities img
+{
+    margin-top: 50px;
+    width: 100%;
+    
+}
+
+.cities i
+{
+    color: #e67e22;
+    
+}
+
+
+/*-----------TESTIMONIAL SECTION----------*/
+
+.tesimonial
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/Backgrounds/background4.jpg);
+    padding-top: 60px;
+    padding-bottom: 60px;    
+    margin-top: 80px;
+    color: white;
+    background-attachment: fixed;
+}
+
+.tesimonial p
+{
+    margin-top: 50px;   
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+.tesimonial cite img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+/*----------Buying Section-----------*/
+
+.buy
+{
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+
+h3
+{
+    font-size: 32px;
+}
+
+.btn-primary
+{
+    margin-top: 10px;
+    width: 250px;
+    height: 40px
+    
+}
+
+.gaps
+{
+    margin-top: 70px;
+}
+
+.resizeText
+{
+    margin-top: 40px;
+}
+
+.one
+{
+    position: relative;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+}
+
+.one .wrapper
+{
+    width: 280px;
+    height: 280px;
+    border-width: 10px;
+    border-style:  solid;
+    border-color:  deepskyblue #e67e22 #e67e22 deepskyblue;
+    border-radius: 50%;
+    transition: all .8s ease-in-out 0s;
+    position: absolute;
+    
+}
+
+.one img, .one .info
+{
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    bottom: 0px;
+    left: 30px;
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    transition: all .8s ease-in-out 0s; 
+}
+.one .info
+{
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+    background-color: white;
+    opacity: 0;
+    transition: all .8s ease-in-out 0s; 
+    backface-visibility: hidden;
+    
+}
+
+.one a:hover .wrapper
+{
+    
+    transform: rotate(180deg);
+    transition: all .8s ease-in-out 0s; 
+    
+}
+.one a:hover img
+{
+    
+    opacity: 0;
+    transition: all .8s ease-in-out 0s; 
+    
+}
+.one a:hover .info
+{
+    
+    opacity: 1;
+    transition: all .8s ease-in-out 0s; 
+    
+}
+
+
+/*-----------Validation FORM SECTION----------*/
+
+.form
+{
+    margin-top: 30px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/Backgrounds/cover.png);
+    color: white;
+    background-attachment: fixed;	
+    background-size: cover;
+	background-position: center;		
+}
+
+.form h3
+{
+    margin-top: 80px;
+    
+}
+
+.btn-block
+{
+    background-color: #e67e22;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+
+.gap
+{
+    margin-top: 70px;
+}
+
+/*-----------Service SECTION----------*/
+
+.services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/Backgrounds/cover.png);
+    color: white;
+    padding-bottom: 80px;
+    background-attachment: fixed;
+    background-size: cover;
+	background-position: center;		
+
+}
+
+.services h3
+{
+    margin-top: 70px;
+}
+
+.super-com
+{
+    color: dodgerblue;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 45px;
+}
+
+/*-----------MAP SECTION----------*/
+
+#map
+{
+    height: 400px;  
+    width: 100%;
+}
+
+
+
+#map
+{
+    width:800px;
+    height:400px;
+    position:relative;
+    border:solid;
+}
+
+
+/*-----------Footer SECTION----------*/
+
+.foot
+{
+    background-color: black;
+    color: white;
+    
+}
+
+.foot-all
+{
+    background-color: #232B2B;
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.foot img
+{
+    height: 40px;
+    width: 40px;
+    float: right;
+    padding-right: 15px;    
+    padding-top: 4px;
+    margin-top: 7px;		
+}
+
+.fa-angle-up
+{
+    background-color: #232B2B;
+    font-size: 46px;
+    height: 60px;
+    width: 60px;
+}
+

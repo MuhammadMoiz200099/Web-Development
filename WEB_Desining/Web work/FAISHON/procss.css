@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+<style>
+*{
+	margin:0 auto;
+	padding:0;
+	
+	}
+.shirts{
+	width:200px;
+	height:220px;
+	float:left;
+	position:relative;
+	top:10px;
+	right:50px;
+	margin-left:180px;
+	margin-top:100px;
+	}
+
+.img{
+	width:200px;
+	height:200px;
+	
+	}
+.img:hover{
+	opacity:0.6;
+	transition:800ms;
+	}

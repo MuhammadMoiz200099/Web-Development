@@ -1,0 +1,408 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+/*----------water ripple-----------*/
+
+.ripple
+{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/cover/cover1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
+
+
+.ripple .topper a i
+{
+    margin-left: 92vw;
+    position: fixed;
+    font-size: 8vw;
+}
+
+/*-------------header design--------------*/
+
+
+.hero-text
+{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 4vw;
+    margin-top: 5vw;
+}
+
+.header-button 
+{
+    margin-left: -1vw;
+}
+
+.header-button a
+{
+    border: 1px solid white;
+    margin-left: 2vw;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    
+}
+
+.header-button a.btn-full
+{
+    color: white;
+    background-color: #e76e22;
+    border-color: #e76e22;
+}
+
+.header-button a.btn-full:hover
+{
+    color: #e67e22;
+    background-color: white;
+    border-color: #fff;
+}
+
+.header-button a.btn-half:hover
+{
+    color: white;
+    background-color: #e76e22;
+    border-color: #e76e22;
+}
+.header-button a.btn-half
+{
+    color: #e67e22;
+}
+
+.header-button ul li a
+{
+   border: 1px solid white;
+   margin-left: 16vw;    
+}
+
+.navbar-custom .navbar-nav li a
+{
+    padding: 2vw;
+}   
+
+.navbar-custom .navbar-nav li a:hover
+{
+    background: transparent;
+    border-bottom: 2px solid #337ab7;
+    transition: all 0.5s ease-in;
+    padding: 15px ;
+
+}
+
+
+
+/*-----------------WaterText----------------*/
+
+
+
+.ripple h1
+{
+    margin: 0;
+    padding: 0;
+    margin-top: 8vw;
+    margin-left: 13vw;
+    text-transform: uppercase;
+    font-size: 8vw;
+    color:  rgba(255,255,255,.1);
+    background-image: url(img/logo/watar1.png);
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite
+
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: left 0px top 0px;
+    }   
+    40%
+    {
+        background-position: left 800px top -50px;
+    }   
+    80%
+    {
+        background-position: left 1800px top -50px;
+    }   
+    0%
+    {
+        background-position: left 240px top 80px;
+    }   
+}
+
+/*------------Navbar styling-------------*/
+
+.ripple ul li a
+{
+    margin-top: 2vw;
+    font-family: monospace;
+    font-size: 2vw;
+}
+
+.navbar-header a
+{
+    margin-top: 2.5vw;
+    margin-left: vw;
+    font-family: monospace;
+    font-size: 3vw;
+    color: #e67e22;
+}
+
+.navbar-header a:hover
+{
+    margin-top: 2vw;
+    font-family: monospace;
+    font-size: 3vw;
+    color: #337ab7;
+    animation: swing 15s linear infinite
+
+}
+
+@keyframes swing
+{
+      from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}   
+
+
+.ripple button i
+{
+    font-size: 5vw;
+}
+
+/*------------Scroller-------------*/
+
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: lightsteelblue;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(23, 155, 215);
+    border-radius: 6px;
+    height: 150px;
+}
+
+
+/*--------------guitarist section-----------------*/
+
+.guitarist
+{
+    margin-top: 4vw;
+}
+
+.guitarist h2
+{
+    font-size: 38px;
+}
+
+.imga
+{
+    margin-top: 4vw;
+    height: 250px;
+    width: 350px;
+    
+}
+
+
+/*--------------Lesson section---------------*/
+
+
+.lesson
+{
+    height: 100vh;
+    margin-top: 6vw;
+    
+}
+
+.lesson h2
+{
+    font-size: 38px; 
+    margin-bottom: 5vw;
+}
+
+.lesson ul li
+{
+    list-style: none;
+    margin-left: 25vw;
+}
+
+h2:after
+{
+    width: 150px;
+    height: 2px;
+    background-color: #337ab7;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+
+/* dropdown button-----lesson section-------*/
+
+.lesson h3
+{
+    margin-top: 1vw;
+}
+
+.lesson p
+{
+    font-size: 1.5vw;
+    margin-left: 1vw;
+}
+
+.dropdown
+{
+    display: inline-block;
+}
+
+.dropdown button
+{
+    border: none;
+    padding: 1vw 2.6vw;
+    white-space: nowrap;
+    background-color: rgba(255,0,0);
+    color: #fff;
+    transition: .3s;
+}
+
+.dropdown button:hover
+{
+    background-color: darkred;
+    color: white;
+}
+
+.dropdown div
+{
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1;
+    visibility: hidden;
+}
+
+.dropdown div a
+{
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    transition: .1s;
+    color: #000;
+}
+
+.dropdown div a:hover
+{
+    background-color: darkred;
+    color: #fff;
+}
+
+.dropdown:hover div
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*-----------MOBILE SECTION----------*/
+
+.pic img
+{
+    width: 50%;
+    height: 410px;
+    margin-left: 50%;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+
+.work-step
+{
+    margin-top: 50px;
+    
+}
+
+.work-step div
+{
+    border: 1px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.work-step img
+{
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 20px
+}
+
+.clearfix
+{
+    zoom: 1;
+}
+
+.clearfix:after
+{
+    visibility: hidden;
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+

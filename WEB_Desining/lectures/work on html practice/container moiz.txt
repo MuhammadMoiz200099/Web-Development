@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<head>
+<title>layout</title>
+<style>
+#container
+{
+width:870px;
+height:750px;
+border:15px solid green;
+border-collapse:collapse;
+}
+.header
+{
+width:98%;
+height:60px;
+border:10px dashed cyan;
+font-size:36px;
+color:green;
+
+
+}
+.nav
+{
+width:98%;
+height:30px;
+border:10px dotted white;
+}
+.aside
+{
+width:320px;
+height:540px;
+border:10px dashed red;
+float:left;
+
+}
+.section
+{
+width:500px;
+height:540px;
+border:10px dotted yellow ;
+float:right;
+
+}
+.cl
+{
+clear:both;
+}
+.footer
+{
+width:98%;
+height:40px;
+border:10px dashed cyan;
+
+}
+</style>
+</head>
+<marquee><body bgcolor="black">
+           <font size="4" color="blue">
+      <u><b><i>
+ <div id="container">
+<div class="header">
+HEADER
+</div>
+<div class="nav">
+NAVIGATION
+</div>
+<div class="aside">
+right side
+</div>
+<div class="section">
+left section
+
+</div>
+<div class="cl">
+</div>
+<div class="footer">
+footer
+</div>
+</div>
+    </font>
+      </u></b></i>
+ </body>
+</marquee>
+   </html>

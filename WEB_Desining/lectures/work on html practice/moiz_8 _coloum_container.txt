@@ -1,0 +1,140 @@
+﻿<!DOCTYPE HTML>
+	<head>
+  		<style>
+ 	
+  	#a{
+        width: 1236px;
+        height: 866px ;
+        border: 15px solid green;
+}	
+	.b{
+        width: 97.5%;
+	height: 70px;
+	border: 15px solid red;
+}
+   	.c{
+        width: 97.5%;
+	height: 70px; 
+	border: 15px solid blue;
+} 
+        .d{
+ 	width: 10%;
+	height: 450px;
+	border: 15px solid purple;
+	float:left;
+}
+   	.e{
+        width: 10%;
+	height: 450px;
+	border: 15px solid purple;
+	float:left;
+}
+   	.i{
+        width: 10%;
+	height: 450px;
+	border: 15px solid purple;
+	float:left;
+}
+        .j{
+ 	width: 10%;
+	height: 450px;
+	border: 15px solid purple;
+	float:left;
+}
+        .k{
+ 	width: 10%;
+	height: 450px;
+	border: 15px solid purple;
+	float:left;
+}
+        .L{
+ 	width: 10.5%;
+	height: 450px;
+	border: 15px solid purple;
+	float:left;
+}
+        .M{
+ 	width: 10%;
+	height: 450px;
+	border: 15px solid purple;
+	float:left;
+}
+        .N{
+ 	width: 10%;
+	height: 450px;
+	border: 15px solid purple;
+	float:left;
+}
+	.f{
+	clear:both;
+}
+	.g{
+	width: 97.5%;
+	height: 55px;
+	border: 15px solid brown;
+}
+	.h{
+	width: 97.5%;
+	height: 70px;
+	border: 15px solid yellow;
+}
+
+	        </style>
+	</head>
+    		<body>
+    <div id = "a">
+
+     <div class = "b">
+          <center><h1>HEADER</h1></center>
+       </div>
+
+     <div class = "c">
+      <center><h1>NAVIGATION</h1></center>
+      </div>
+
+     <div class = "d">
+       	<center><h1>SIDE A</h1></center>
+      </div>
+
+     <div class = "e">
+	<center><h1>SIDE B</h1></center>
+      </div>
+
+     <div class = "i">
+	<center><h1>SIDE C</h1></center>
+      </div>
+
+     <div class = "j">
+	<center><h1>SIDE D</h1></center>
+      </div>
+
+     <div class = "k">
+	<center><h1>SIDE E</h1></center>
+      </div>
+
+     <div class = "L">
+	<center><h1>SIDE F</h1></center>
+      </div>
+
+     <div class = "M">
+	<center><h1>SIDE G</h1></center>
+      </div>
+
+     <div class = "N">
+	<center><h1>SIDE H</h1></center>
+      </div>
+
+     <div class = "f">
+      </div>
+
+     <div class = "g">
+	<center><h1>EMPTY BAR</h1></center>
+      </div>
+
+     <div class = "h">
+	<center><h1>FOOTER</h1></center>
+      </div>
+
+    </div>
+   		</body>
+   	</html> 

@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FIRST FASHION</title>
+<link href="099.png" rel="icon">
+<link href="productscss.css" rel="stylesheet" rev="stylesheet">
+<link href="productscss.css" rel="stylesheet" rev="stylesheet" />
+<link href="header1.css" rel="stylesheet" rev="stylesheet" />
+<link href="footer.css" rel="stylesheet" rev="stylesheet" />
+<link href="sectioncss.css" rel="stylesheet" rev="stylesheet" />
+<script>
+function execute(){
+	if(('sessionStorage' in window) && (window['sessionStorage']!==null))
+	{
+		var name=document.getElementById('name').innerHTML;
+		sessionStorage.setItem('username',name);
+		var price=document.getElementById('price').innerHTML;
+		sessionStorage.setItem('proprice',price);
+		var color=document.getElementById('color').innerHTML;
+		sessionStorage.setItem('procolor',color);
+		var size=document.getElementById('size').value;
+		sessionStorage.setItem('prosize',size);
+		
+		window.open("shop now.html");
+		}
+	else{
+		alert("error...");
+		}
+	}
+</script>
+
+
+
+<style>
+*{
+	margin:0 auto;
+	padding:0;
+	
+	}
+
+</style>
+
+</head>
+
+<body>
+<header style="background:black; background-size:1260px 600px;">
+<div id="heading1"><img src="images/LOGOkk.png" style="width:280px;height:150px;" /></div>
+<hr  style="width:1240px;;position:relative;top:20px;color:#FFF"/>
+<nav>
+	<ul>
+    	<li class="B"><a class="A" href="website.html">HOME</a></li>
+        
+        <li class="B"><a class="A" href="SELECT YOUR BRAND.html">BRANDS</a></li>
+        <li class="B"><a class="A" href="select your catagory.html">CATAGORIES</a></li>
+        <li class="B"><a class="A" href="contact.html">CONTACT</a></li>
+        <li class="B"><a class="A" href="about.html">ABOUT</a></li>
+	</ul>
+</nav></header>
+
+<section><div id="section">
+<div id="maindiv">
+<div id="proimg"><img src="images/rayban8.jpg" style="width:500px;height:600px;border:solid gray;"></div>
+<div id="proname"><h1 id="name" style="text-align:center;font-family:'Times New Roman', Times, serif;font-size:40px;top:20px;position:relative;letter-spacing:2px;">RAY.BAN 111</h1></div>
+<div id="proprice" ><h1 id="price" style="text-align:center;font-size:28px;position:relative;top:10px;">5999</h1><h1 style="bottom:22px;position:relative;left:153px;font-size:28px;">PKR</h1></div>
+<div id="sizeh">SIZE:</div>
+<div id="colorh">COLOR:</div>
+<div id="procolor"><P id="color" style="border:solid;font-size:20px;position:relative;HEIGHT:55PX;line-height:55PX;">BLACK	
+</P></div>
+<div id="prosize"><select id="size" style="border:solid;width:180px;font-family:Georgia, 'Times New Roman', Times, serif;position:relative;font-size:20px;height:60px;">
+<option style="border:solid;">---NO SIZE---</option>
+</select></div>
+<div id="proquantity"></div>
+<div id="prodescription"><h2 style="text-decoration:underline;">DESCRIPTION:</h2><hr style="width:174.5px;position:relative;
+right:145px;height:2px;border:black;background:#000;"><br><p id="p">RAYBAN’S GLASSES ARE ONE OF THE BRAND COMPANY OF ALL OVER THE WORLD.THEY ARE PROVIDE US VARIOUS COLOR OF GLASSES.THEY ARE HIGHLY SUITABLE OF EVERY FACE.THEIR COSTS IS ALSO VERY GOOD.
+
+</p></div>
+<input type="button" id="shopnow" onClick="execute()" value="SHOP NOW">
+<a href="documents/rayban8.docx"><input type="button" id="download" value="DOWNLOAD"></a>
+<div style="width:100px;height:850px;background:black;position:relative;right:580px;bottom:1300px;z-index:10;"></div>
+<div style="width:100px;height:850px;background:black;position:relative;bottom:2180px;left:580px;"></div>
+
+</div></div></section>
+<footer>
+<a href="http://www.fb.com"><div id="link1"></div></a>
+<a href="http://www.twitter.com"><div id="link2"></div></a>
+<a href="https://www.pinterest.com"><div id="link3"></div></a>
+<a href="http://www.instagram.com"><div id="link4"></div></a>
+<div id="footernav">
+<ul>
+    	<li class="C"><a class="D" href="website.html">HOME</a></li>
+        <li class="C"><a class="D" href="about.html">ABOUT</a></li>
+        <li class="C"><a class="D" href="SELECT YOUR BRAND.html">BRANDS</a></li>
+        <li class="C"><a class="D" href="contact.html">CONTACT</a></li>
+</ul>
+</div>
+<a href="#"><p id="compare">WOULD YOU LIKE TO COMPARE THE PRODUCTS?</p></a>
+<center>
+<font size="3" color="white">
+<br><br><div id="last"><p id="lastpara">This website and its content is copyright of MUHAMMAD_MOIZ<br /> © MM_PRODUCTS 2017. All rights reserved.<br />CREATED BY... MUHAMMAD MOIZ SIDDIQUE...</p>
+<a href="https://www.facebook.com/profile.php?id=100005211407247"><img src="48.jpg" class="round">
+</font> 
+</center>  
+</footer>
+
+</body>
+</html>

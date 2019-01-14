@@ -1,0 +1,27 @@
+
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px auto;}
+#wrapper{width:1024px; height:auto; margin:0px auto;}
+header{
+	width:1024px;
+	height:600px;
+	
+	
+	}
+nav{
+	width:1024px;
+	height:50px;
+	background-color:#424242;
+	box-shadow:0 0 0.5em 0.5em #D5D5D5; border-radius:10%;
+	
+	
+	}
+
+#content{overflow:auto}	
+div
+{border-color:white ; border-style:solid }				
+	foot{ color:black; width:1024px;}
+
+.abc{width:100% ;height:400% ;background:cover; padding:5px; float:left;}
+#site{float:right; }

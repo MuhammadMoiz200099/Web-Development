@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<head>
+
+<script>
+function showMessage(){
+var firstname = document.getElementById("fname").value;
+namef.innerHTML=firstname;
+var lastname = document.getElementById("lname").value;
+namel.innerHTML=lastname;
+var age = document.getElementById("age").value;
+ageo.innerHTML=age;
+var email = document.getElementById("email").value;
+emailo.innerHTML=email;
+}
+</script>
+
+<style>
+
+table{
+
+	border: 7px dashed green;
+	border-collapes:15px;
+	padding: 10px;
+}
+td , th{
+	border: 7px solid red;
+	border-collapes:15px;
+	padding: 10px;
+}
+
+</style>
+
+</head>
+
+
+<body style="background: url(49.jpg); background-size: 100% 100%;">
+<h1>
+
+<center>Enter First Name: 
+
+<h1>
+Enter First Name: 
+<input type="text" id="fname" placeholder="First Name"><br>
+Enter Last Name: 
+<Input type="text" id="lname" placeholder="Last Name"><br>
+Enter age:
+<Input type="number" id="age" ><br>
+Enter Email:
+<input type="text" id="email" value="" placeholder="Email"><br>		
+<input type="button" value="Submit" onclick="showMessage()">
+</h1><br><br>
+
+<table border=15>
+
+<tr>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Age</th>
+<th>Email</th>
+</tr>
+
+<tr>
+<td id="namef">-</td>
+<td id="namel">-</td>
+<td id="ageo">-</td>
+<td id="emailo">-</td>
+</tr>
+
+</table>
+
+</center>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+footer{
+	width:1260px;
+	height:600px;
+	background:#000;
+	position:relative;
+	z-index:1000;
+	}
+ul{
+	list-style:none;
+	
+	}	
+.C{
+	position:relative;
+	top:2000px;
+	margin-top:30px;	
+	width:130px;
+	height:40px;
+	margin-left:px;
+	top:-10px;
+	right:0px;
+	float:left;
+	}
+.D{
+	
+	font-size:23px;
+	text-decoration:none;
+	color:white;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}		
+
+
+.D:hover{
+	color:#999;
+	}	
+#footernav{
+	width:520px;
+	height:50px;
+	position:relative;
+	top:180px;
+	}
+#link1{
+	width:50px;
+	height:50px;
+	float:left;
+	position:relative;
+	left:485px;
+	top:120px;
+	background:url(images/fblogo.png);
+	background-size:50px 50px;
+	}
+#link1:hover{
+	background:url(images/fbhover.png);
+	background-size:50px 50px;
+	}		
+#link2{
+	width:50px;
+	height:50px;
+	float:left;
+	position:relative;
+	left:510px;
+	top:120px;
+	background:url(images/intagram%20logo.png);
+	background-size:50px 50px;
+	}
+#link2:hover{
+	background:url(images/intagram%20logo%20h.png);
+	background-size:50px 50px;
+	}	
+#link3{
+	width:50px;
+	height:50px;
+	float:left;
+	position:relative;
+	left:530px;
+	top:120px;
+	background:url(images/twitterlogo.png);
+	background-size:50px 50px;
+	}
+#link3:hover{
+	background:url(images/twitterhover.png);
+	background-size:50px 50px;
+	}
+#link4{
+	width:60px;
+	height:60px;
+	float:left;
+	position:relative;
+	left:545px;
+	top:115px;
+	background:url(images/plogo.png);
+	background-size:60px 60px;
+	}
+#link4:hover{
+	background:url(images/plogo%20h.png);
+	background-size:60px 60px;
+	}
+#last{
+	width:1260px;
+	height:120px;
+	position:relative;
+	top:295px;
+	border-top:solid white;
+	background:#000;
+	}
+#lastpara{
+	color:white;
+	width:500px;
+	position:relative;
+	top:20px;
+	height:100px;
+	}
+#compare{
+	width:550px;
+	height:50px;
+	position:relative;
+	top:200px;
+	right:0px;
+	color:white;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight:bold;
+	}
+a{
+		text-decoration:none;
+	}
+img.round{
+   border-radius: 70%;
+   height: 50px;
+   width:  50px;
+}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script>
+function Comapre(){
+	var brand1=document.getElementById('brand1').value;
+	var brand2=document.getElementById('brand2').value;
+	
+	if(brand1==brand2){
+		alert("same brands cannot be compared");
+		}
+	else if(brand1=='nokia' && brand2=='samsung'){
+		document.getElementById('p1').innerHTML='20000Rs';
+		document.getElementById('m1').innerHTML='M2200';
+		document.getElementById('img1').src='Product1.jpg';
+		
+		document.getElementById('p2').innerHTML='564500';
+		document.getElementById('m2').innerHTML='S2200';
+		document.getElementById('img2').src='Product2.jpg';
+		
+		}
+		
+			else if(brand1=='nokia' && brand2=='lenovo'){
+		document.getElementById('p1').innerHTML='20000Rs';
+		document.getElementById('m1').innerHTML='M2200';
+		document.getElementById('img1').src='Product1.jpg';
+		
+		document.getElementById('p2').innerHTML='700000PKR';
+		document.getElementById('m2').innerHTML='L2200';
+		document.getElementById('img2').src='Product2.jpg';
+		
+		}
+	
+	}
+
+</script>
+
+
+
+<style>
+td{
+	width:200px;
+	}
+tr{
+	height:100px;
+	}	
+</style>
+</head>
+
+<body>
+<table border="1">
+	<tr>
+		<td colspan="2">
+        <select id="brand1">
+        
+        <option>---Select---</option>
+        
+        <option value="nokia">Nokia</option>
+        <option value="samsung">Samsung</option>
+        <option value="lenovo">Lenovo</option>
+        </select>
+        </td>
+        <td colspan="2">
+        <select id="brand2" >
+        
+        <option>---Select---</option>
+        
+        <option value="nokia">Nokia</option>
+        <option value="samsung">Samsung</option>
+        <option value="lenovo">Lenovo</option>
+        </select>
+        </td>
+	</tr>
+    
+    <tr>
+		<td>Price</td>
+        <td id="p1"> </td>
+        <td>Price</td>
+        <td id="p2"></td>
+	</tr>
+    
+    <tr>
+		<td>Model Number #:</td>
+        <td id="m1"></td>
+        <td>Model Number # :</td>
+        <td id="m2"></td>
+	</tr>
+    
+    <tr>
+		<td>Image Of the product</td>
+        <td><img src="" id="img1" width="200" height="100"></td>
+        <td>Image of the product2</td>
+        <td><img src="" id="img2" width="200" height="100"></td>
+	</tr>
+    
+    <tr><td colspan="2" style="text-align:center"> <input type="button" onClick="Comapre()"  value="Compare"></td> </tr>
+
+</table>
+</body>
+</html>

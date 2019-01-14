@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+#header{
+	width:1260px;
+	height:200px;
+	border:solid white;
+	z-index:1000;
+	position:relative;
+	}
+	
+	
+header{
+	width:1260px;
+	height:200px;
+	z-index:1000;
+	position:relative;
+}
+	
+nav{
+	width:800px;;
+	height:30px;
+	position:relative;
+	left:220px;
+	top:-15px;
+	
+	}	
+ul{
+	list-style:none;
+	}		
+li{
+	float:left;
+	width:155px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	position:relative;
+	top:-10px;
+
+		}	
+.A{
+	text-decoration:none;
+	font-size:22px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:white;
+	font-weight:bolder;
+	transition:color 200ms,border-color 275ms;
+	display:block;
+
+	}
+.A:hover{
+	background:white;
+	color:black;
+	border-radius:50px;
+	transition:800ms;
+	}
+window.active{
+	background:#009;
+	
+	}				
+#heading1{
+	text-align:center;
+	width:280px;
+	height:150px;
+	position:relative;
+	left:-480px;
+	top:5px;
+	color:white;
+	font-size:36px;
+	font-family:"Times New Roman", Times, serif;
+	}
+#para1{
+	width:480px;
+	height:120px;
+	font-size:20px;
+	color:white;
+	position:relative;
+	margin-left:750px;
+	margin-top:280px;
+	overflow:hidden;
+	}	
+#B{
+	width:400px;
+	color:white;
+	margin-left:550px;
+	margin-top:-220px;
+	font-size:40px;
+	
+	}
+	
+ul .B ul{
+	margin-top:-8px;
+	display:none;
+	z-index:1000;
+	}
+ul .B:hover ul{
+	display:block;
+	color:red;
+	
+	}
+

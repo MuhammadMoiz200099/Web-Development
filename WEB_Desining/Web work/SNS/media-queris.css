@@ -1,0 +1,105 @@
+/***********Min Screen***********/
+
+@media only screen and (min-width: 326px) {
+
+
+    /***************NAVIGATION BAR******************/
+
+    .navbar ul li a:hover {
+        background: #FF5733;
+        color: white;
+    }
+    
+    .value-buttons .buttonTwo {
+        margin: 0 0 0 0;
+    }
+    
+    .header {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-header button {
+        margin-left: -30px;
+    }
+    /***************FEATURES SECTION******************/
+
+    .feature-heading {
+        margin-bottom: 30px;
+    }
+
+    .featured-Heading-left {
+        text-align: left;
+    }
+
+    .featured-text-left {
+        text-align: left;
+    }
+
+    /***************services SECTION******************/
+
+    .services {
+        margin-top: -100px;
+    }
+
+}
+
+/************MAx SCreen*************/
+
+@media only screen and (min-width: 768px) {
+
+
+    /***************NAVIGATION BAR******************/
+
+    .navbar ul li a:hover {
+        background: transparent !important;
+        animation: swing 5s infinite;
+        color: #FF5733;
+    }
+
+    /***************FEATURES SECTION******************/
+
+    .feature-heading {
+        margin-bottom: 60px;
+    }
+
+    .featured-Heading-left {
+        text-align: right;
+    }
+
+    .featured-text-left {
+        text-align: right;
+    }
+
+    .featured-Heading-right {
+        text-align: left;
+    }
+
+    .featured-text-right {
+        text-align: left;
+
+    }
+
+    s
+    /***************SERCIVES SECTION******************/
+
+    .services {
+        margin-top: 10px;
+    }
+
+    .servicebox:hover {
+        animation: jello 2.5s ease-in-out;
+    }
+
+    .myFeatureImage:hover {
+        animation: swing 0.5s ease-in-out;
+    }
+
+}
+
+
+/*-----Gmail---------snsfashionhouse-------------->
+             <!--------------snsfashion-----------------*/
+
+
+/*********************http://www.snsfashionhouse.tk/*********************/
+

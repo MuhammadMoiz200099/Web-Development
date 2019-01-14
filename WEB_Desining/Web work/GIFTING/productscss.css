@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+#maindiv{
+	width:1000px;
+	height:700px;
+	
+	
+	}
+#proimg{
+	width:500px;
+	height:600px;
+	
+	position:relative;
+	top:50px;
+	right:240px;
+	}
+#procolor{
+	width:180px;
+	height:60px;
+	
+	position:relative;
+	bottom:560px;
+	left:160px;
+	}
+#prosize{
+	width:180px;
+	height:60px;
+	
+	position:relative;
+	bottom:620px;
+	left:390px;
+	}
+#shopnow{
+	width:150px;
+	height:50px;
+	position:relative;
+	bottom:550px;
+	left:605px;
+	background:black;
+	color:white;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	}
+#shopnow:hover{
+	background:#666;
+	transition:800ms;
+	}	
+#download{
+	width:150px;
+	height:50px;
+	position:relative;
+	bottom:550px;
+	left:605px;
+	background:black;
+	color:white;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	
+	}		
+#download:hover{
+	background:#666;
+	transition:800ms;
+	}	
+
+#proname{
+	width:400px;
+	height:80px;
+	text-decoration:underline;
+	position:relative;
+	bottom:557px;
+	left:250px;
+	}
+#prodescription{
+	width:465px;
+	height:220px;
+	position:relative;
+	bottom:570px;
+	left:278px;
+	}	
+#proprice{
+	width:250px;
+	height:60px;
+	text-decoration:underline;
+	position:relative;
+	bottom:555px;
+	left:210px;
+	}
+#sizeh{
+	width:100px;
+	height:30px;
+	position:relative;
+	bottom:536px;
+	left:310px;
+	line-height:30px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight:700;
+	}
+#p{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	width:450px;
+	height:150px;
+	}	
+#colorh{
+	width:100px;
+	height:30px;
+	position:relative;
+	bottom:566px;
+	left:85px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight:700;
+	line-height:30px;
+	}

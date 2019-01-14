@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>ImageComparison</title>
+        
+        <link rel="stylesheet" type="text/css" href="twentytwenty-master/css/twentytwenty.css">
+    
+            <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    
+            <script src="twentytwenty-master/js/jquery.event.move.js"></script>
+            <script src="twentytwenty-master/js/jquery.twentytwenty.js"></script>
+
+    
+        <script type="text/javascript">
+                $(function(){
+                    $(".image[data-orientation!='vertical']").twentytwenty({
+                        default_offset_pct:0.5
+                    });
+          
+          })
+    
+    	</script>
+</head>
+
+<body>
+
+    <div class="image">
+    
+        <img src="img/background3.jpg">
+        <img src="img/background3(0).jpg">
+        
+        </div>
+
+
+</body>
+
+    
+</html>

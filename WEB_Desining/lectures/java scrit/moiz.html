@@ -1,0 +1,91 @@
+﻿<!doctype html>
+<head>
+<title>test input</title>
+<script language="javascript">
+functiontestresults (form) {
+var testvar = form.inputbox.value;
+alert  ("you typed: " + testvar);
+}
+functionreadtext (form) {
+var testvar =form.inputbox.value;
+alert ("you typed: " + testvar);
+}
+functionwritetext (form) {
+form.inputbox.value = "have a nice day!"
+}
+functiontestresults (form) {
+var testvar = form.inputbox.value;
+alert  ("you typed: " + testvar);
+}
+</script>
+
+</head>
+
+
+<body style="background: url(49.jpg); background-size: 100% 100%;">
+
+<font size="6">
+<marquee><h1 span style="color:blue">MOIZ</h1></marquee>
+<h2>What Can write your fullname?</h2>
+<p id="demo">MOIZ</p>
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'MUHAMMAD MOIZ SIDDIQUE'">Click Me!</button>
+<script src="myscripts.js"></script>
+<p>In this case JavaScript changes the src (source) attribute of an image.</p>
+
+
+
+<img id="myImage" src="37.jpg" width="100px" heigth="100px">
+<img id="myImage1" src="39.jpg" width="100px" heigth="100px"><br><br>
+
+
+
+<button onclick="document.getElementById('myImage1').src='pic_bulbon.gif'">Turn on the light</button>
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+<h2>JavaScript in Body</h2>
+<p id="hii">A Paragraph.</p>
+<button type="button" onclick="myFunction()">Try it</button>
+
+
+
+<script>
+functionmyFunction() {
+document.getElementById("hii").innerHTML = "Paragraph changed.";
+}	
+</script>
+
+
+
+<form name="myform" action="" method="get">
+enter something in the box: <br>
+<input type="text" name="inputbox" value=""><p>
+<input type="submit" name="button1" value="read"  onclick="readtext(this.form) ">
+<input type="submit" name="button2" value="write"  onclick="writetext(this.form) ">
+</form>
+
+
+
+<form name="myform" action="" method="get">enter something in the box: <br>
+<input type="text" name="inputbox" value="" placeholder="inputbox"><p>
+<input type="reset" name="button" value="click" onclick="testresults(this.form)">
+</form>
+
+
+    <form>
+    <h1>First name:</span></h1> <input type = "text" value""id ="fname" placeholder="firstname"><br>
+    <h1>last name:</span></h1> <input type = "text" value""id ="lname" placeholder="lastname"><br>    
+    <h1>pasword:</span></h1> <input type = "text" value""id ="value" placeholder="password">
+      <br><h1>Gender:</h1></span> <br>
+   <input type = "radio" value"male" id ="value">male<br>
+   <input type = "radio" value"female" id ="value">female<br><br>
+   <h1>comment: </h2><br>
+   <textarea rows="10" cols="100">value</textarea><br><br>       
+   <input type = "submit" value"submit" id ="submit">
+   <input type = "reset" value"reset" id ="reset">      
+   </form>
+</font>
+
+
+   </body>
+
+   </html>
